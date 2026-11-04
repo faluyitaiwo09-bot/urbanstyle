@@ -350,6 +350,11 @@ section {
     border-radius: var(--radius);
 }
 
+.about-vision h3 {
+    margin-bottom: 10px;
+    color: var(--primary);
+}
+
 .about-text h3 {
     margin-bottom: 10px;
     color: var(--primary);
