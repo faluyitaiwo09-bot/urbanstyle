@@ -1,11 +1,6 @@
-/* =====================================================
-   UrbanStyle Fashion Store - styles.css
-   Sections: 1 Variables  2 Reset  3 Shared  4 Header
-   5 Hero  6 Categories  7 Products  8 About  9 Why Us
-   10 Contact  11 Footer  12 Responsive
-   ===================================================== */
 
-/* ---------- 1. Variables ---------- */
+
+/* --------- Variables ---------- */
 :root {
     --primary: #b8553a;
     --primary-dark: #9a432c;
@@ -20,7 +15,7 @@
     --body-font: "Segoe UI", Arial, Helvetica, sans-serif;
 }
 
-/* ---------- 2. Reset and base ---------- */
+/* ---------- Reset and base ---------- */
 *,
 *::before,
 *::after {
@@ -64,7 +59,7 @@ h3 {
     line-height: 1.2;
 }
 
-/* ---------- 3. Shared pieces ---------- */
+/* ---------- Shared pieces ---------- */
 .container {
     width: 90%;
     max-width: 1200px;
@@ -125,7 +120,7 @@ section {
     transform: translateY(-2px);
 }
 
-/* ---------- 4. Header and navigation ---------- */
+/* ---------- Header and navigation ---------- */
 .header {
     position: sticky;
     top: 0;
@@ -184,7 +179,7 @@ section {
     width: 100%;
 }
 
-/* ---------- 5. Hero ---------- */
+/* ---------- Hero ---------- */
 .hero-section {
     min-height: 85vh;
     display: flex;
@@ -208,7 +203,7 @@ section {
     color: #e9e4dc;
 }
 
-/* ---------- 6. Categories ---------- */
+/* ----------  Categories ---------- */
 .categories-section {
     background: var(--cream);
 }
@@ -259,7 +254,7 @@ section {
     font-size: 0.95rem;
 }
 
-/* ---------- 7. Featured products ---------- */
+/* ----------  Featured products ---------- */
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -310,7 +305,7 @@ section {
     text-align: center;
 }
 
-/* ---------- 8. About ---------- */
+/* ---------- About ---------- */
 .about-section {
     background: var(--cream);
 }
@@ -371,7 +366,7 @@ section {
     box-shadow: var(--shadow);
 }
 
-/* ---------- 9. Why choose us ---------- */
+/* ----------  Why choose us ---------- */
 .features-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -405,7 +400,7 @@ section {
     color: var(--muted);
 }
 
-/* ---------- 10. Contact ---------- */
+/* ----------  Contact ---------- */
 .contact-section {
     background: var(--cream);
 }
@@ -473,7 +468,7 @@ section {
     width: 100%;
 }
 
-/* ---------- 11. Footer ---------- */
+/* ----------  Footer ---------- */
 .footer {
     padding: 48px 0 28px;
     text-align: center;
@@ -526,7 +521,7 @@ section {
     margin-bottom: 20px;
 }
 
-/* ---------- 12. Responsive ---------- */
+/* ----------  Responsive ---------- */
 @media (max-width: 992px) {
     .categories-grid {
         grid-template-columns: repeat(2, 1fr);
